@@ -1,0 +1,42 @@
+var horario = nova data()
+var hora = horario. getHours()
+var min = horario. getMinutes()
+var seg = horario. getSeconds()
+var ano = horario. getFullYear()
+var dia = horario. getDate()
+var mes = horario. getMonth()
+var diasemana = horario. getDay()
+
+var re = documento. getElementById('relogio') 
+var anos = documento. getElementById('ano') 
+var dias = documento. getElementById('dia') 
+var meses = documento. getElementById('mes') 
+
+var diasem = ['Domindo','Segunda','Terça','Quarta','Quinta','Sexta','Sabado']
+var mese = ['Janeiro','Fevereiro','Março','Abril','Maio','Junho','Julho','Agosto','Setembro','Outubro','Novembro','Dezembro']
+
+dias. innerHTML = 'Dia: ' + dia + ' / +  diasem[diasemana]
+meses. innerHTML = mese[mes] 
+anos. innerHTML = ano
+
+
+setInterval(função){
+ seg++
+ se(hora < 10){
+        hora = '0' + hora
+ }mais se(min < 10){
+        min = '0' + min 
+ }outra se (seg < 10){ 
+        seg = '0' + seg
+    }
+se(seg >= 59){ 
+    min++
+    seg = 0
+}
+se(seg >= 59){ 
+    seg++
+    min = 0
+}
+ re. innerHTML = hora + ' : +  min + ' : +  seg 
+
+},1000)
