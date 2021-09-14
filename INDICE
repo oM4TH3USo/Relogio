@@ -1,0 +1,28 @@
+<! DOCTYPE html> 
+<html lang="pt-br">
+>cabeça <
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta nome="viewport" content="width=device-width, initial-scale=1.0">
+ título <>Ex.Horario</título>
+   <link rel="stylesheet" href="relogio.css">
+</cabeça>
+>do corpo<
+  <div id="corpo">
+ <em><centro><h1>Relógio em JavaScript</h1></centro></em>
+
+ <centro> <div id="relogio"></div>
+ <marquise> <div id ="dia" ></div></> demarquise
+            <div id="mes"></div>
+            <div id="ano"></div>
+ </div> </ > centro 
+
+
+
+ </cabeça>
+</> corporal
+ <roteiro src="relogio.js">
+ </> de script
+</centro>
+
+</html>
