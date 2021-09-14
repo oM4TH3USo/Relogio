@@ -1,0 +1,8 @@
+corpo{
+ imagem de fundo:
+      url(https://i.pinimg.com/564x/1a/00/63/1a00631a59fb9d8b6007ad76089fe4a5.jpg);
+ fixação em plano defundo: fixa;
+ tamanho de fundo:cobver;
+ posição de fundo: centro;
+    }
+fonte-família: 'Rampart One', cursivo;
